@@ -174,7 +174,7 @@ codereview-nlp/
 ├── evaluate.py
 ├── requirements.txt
 └── README.md
-
+```
 # 🔥 Future Improvements
 
 - GitHub OAuth Integration  
@@ -190,10 +190,10 @@ codereview-nlp/
 
 | Team Member | Responsibility |
 |-------------|----------------|
-| P1 | Data Pipeline + Name Quality |
-| P2 | Comment Quality Module |
-| P3 | Commit Quality + Sentiment Analysis |
-| P4 | Streamlit Integration & Evaluation |
+| Anshika Rana | Data Pipeline + Name Quality |
+| Ishu | Comment Quality Module |
+| Deepasha | Commit Quality + Sentiment Analysis |
+| Divyanshi | Streamlit Integration & Evaluation |
 
 ---
 
