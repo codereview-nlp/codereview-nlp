@@ -13,7 +13,7 @@
 
 ## 🌐 Live Demo
 
-### 🔗 **[Try the Deployed App Here](YOUR_DEPLOYED_LINK_HERE)**
+### 🔗 **[Try the Deployed App Here](https://codereview-nlp-igdtuw.streamlit.app/)**
 
 </div>
 
