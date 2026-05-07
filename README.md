@@ -118,3 +118,102 @@ Issue Detection
 Suggestions
         ↓
 Overall PR Health Score
+```
+
+# 🛠️ Tech Stack
+
+## Frontend
+- HTML
+- CSS
+- JavaScript
+- Streamlit UI
+
+## Backend & NLP
+- Python
+- HuggingFace Transformers
+- Sentence Transformers
+- LanguageTool
+- PyTorch
+
+---
+
+# 🤖 Models Used
+
+- `microsoft/codebert-base`
+- `all-MiniLM-L6-v2`
+- `cardiffnlp/twitter-roberta-base-sentiment`
+
+---
+
+# 📦 Data Source
+
+- GitHub REST API
+- Open-source Pull Requests datasets
+
+---
+
+# 📂 Project Structure
+
+```bash
+codereview-nlp/
+│
+├── data/
+│   ├── prs.json
+│   └── labeled_30.json
+│
+├── modules/
+│   ├── name_quality.py
+│   ├── comment_quality.py
+│   ├── commit_scorer.py
+│   ├── sentiment.py
+│   └── __init__.py
+│
+├── report/
+├── demo/
+├── app.py
+├── evaluate.py
+├── requirements.txt
+└── README.md
+
+# 🔥 Future Improvements
+
+- GitHub OAuth Integration  
+- Real-time PR Analysis  
+- CI/CD Integration  
+- Advanced Toxicity Detection  
+- Deep Semantic Code Understanding  
+- Team Analytics Dashboard  
+
+---
+
+# 👥 Team Contribution
+
+| Team Member | Responsibility |
+|-------------|----------------|
+| P1 | Data Pipeline + Name Quality |
+| P2 | Comment Quality Module |
+| P3 | Commit Quality + Sentiment Analysis |
+| P4 | Streamlit Integration & Evaluation |
+
+---
+
+# 📚 References
+
+- HuggingFace Transformers  
+- ACL Anthology Research Papers  
+- GitHub REST API Documentation  
+- Streamlit Documentation  
+
+---
+
+# 💡 Motivation
+
+Code reviews are one of the most critical aspects of collaborative software development. Poor naming conventions, unclear comments, vague commit messages, and toxic review feedback reduce maintainability and developer productivity.
+
+**CodeReview** aims to improve code collaboration quality using NLP-driven automated insights.
+
+---
+
+# ⭐ If You Liked This Project
+
+Give this repository a ⭐ and support the project!
